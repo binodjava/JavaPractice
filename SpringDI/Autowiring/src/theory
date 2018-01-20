@@ -1,0 +1,59 @@
+Autowiring in Spring
+1.	Autowiring feature of spring framework enables you to inject the object dependency implicitly. It internally uses setter or constructor injection.
+2.	Autowiring can't be used to inject primitive and string values. It works with reference only.
+
+Advantage of Autowiring
+1.	It requires the less code because we don't need to write the code to inject the dependency explicitly.
+
+Disadvantage of Autowiring
+2.	No control of programmer.
+3.	It can't be used for primitive and string values.
+
+Autowiring Modes
+1.	There are many autowiring modes:
+No.	Mode	Description
+
+1)	no			It is the default autowiring mode. It means no autowiring bydefault.
+2)	byName		The byName mode injects the object dependency according to name of the bean. In such case, property name and bean name must be same. 
+				It internally calls setter method.
+3)	byType		The byType mode injects the object dependency according to type. So property name and bean name can be different. 
+				It internally calls setter method.
+4)	constructor	The constructor mode injects the dependency by calling the constructor of the class. It calls the constructor having large number of 
+				parameters.
+5)	autodetect	It is deprecated since Spring 3.
+
+-------------------------------------------------------
+1) byName autowiring mode
+-------------------------
+In case of byName autowiring mode, bean id and reference name must be same.
+
+It internally uses setter injection.
+
+<bean id="b" class="org.sssit.B"></bean>  
+<bean id="a" class="org.sssit.A" autowire="byName"></bean>  
+
+But, if you change the name of bean, it will not inject the dependency.
+Let's see the code where we are changing the name of the bean from b to b1.
+
+<bean id="b1" class="org.sssit.B"></bean>  
+<bean id="a" class="org.sssit.A" autowire="byName"></bean>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

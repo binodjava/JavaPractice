@@ -1,0 +1,1009 @@
+DEBUG - Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+DEBUG - Adding type registration boolean -> org.hibernate.type.BooleanType@1a160b5e 
+DEBUG - Adding type registration boolean -> org.hibernate.type.BooleanType@1a160b5e 
+DEBUG - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@1a160b5e 
+DEBUG - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@73ae0c9d 
+DEBUG - Adding type registration true_false -> org.hibernate.type.TrueFalseType@4b32ace3 
+DEBUG - Adding type registration yes_no -> org.hibernate.type.YesNoType@44a06d88 
+DEBUG - Adding type registration byte -> org.hibernate.type.ByteType@61ae37b5 
+DEBUG - Adding type registration byte -> org.hibernate.type.ByteType@61ae37b5 
+DEBUG - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@61ae37b5 
+DEBUG - Adding type registration character -> org.hibernate.type.CharacterType@37811015 
+DEBUG - Adding type registration char -> org.hibernate.type.CharacterType@37811015 
+DEBUG - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@37811015 
+DEBUG - Adding type registration short -> org.hibernate.type.ShortType@2f0f9471 
+DEBUG - Adding type registration short -> org.hibernate.type.ShortType@2f0f9471 
+DEBUG - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@2f0f9471 
+DEBUG - Adding type registration integer -> org.hibernate.type.IntegerType@5220c1b 
+DEBUG - Adding type registration int -> org.hibernate.type.IntegerType@5220c1b 
+DEBUG - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@5220c1b 
+DEBUG - Adding type registration long -> org.hibernate.type.LongType@217e9fe8 
+DEBUG - Adding type registration long -> org.hibernate.type.LongType@217e9fe8 
+DEBUG - Adding type registration java.lang.Long -> org.hibernate.type.LongType@217e9fe8 
+DEBUG - Adding type registration float -> org.hibernate.type.FloatType@76c5e234 
+DEBUG - Adding type registration float -> org.hibernate.type.FloatType@76c5e234 
+DEBUG - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@76c5e234 
+DEBUG - Adding type registration double -> org.hibernate.type.DoubleType@193feff2 
+DEBUG - Adding type registration double -> org.hibernate.type.DoubleType@193feff2 
+DEBUG - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@193feff2 
+DEBUG - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@2cd0a9b2 
+DEBUG - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@2cd0a9b2 
+DEBUG - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@1b2c4d8f 
+DEBUG - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@1b2c4d8f 
+DEBUG - Adding type registration string -> org.hibernate.type.StringType@44157e43 
+DEBUG - Adding type registration java.lang.String -> org.hibernate.type.StringType@44157e43 
+DEBUG - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@138c10af 
+DEBUG - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@2cc50443 
+DEBUG - Adding type registration url -> org.hibernate.type.UrlType@5c5ce611 
+DEBUG - Adding type registration java.net.URL -> org.hibernate.type.UrlType@5c5ce611 
+DEBUG - Adding type registration date -> org.hibernate.type.DateType@43d1068c 
+DEBUG - Adding type registration java.sql.Date -> org.hibernate.type.DateType@43d1068c 
+DEBUG - Adding type registration time -> org.hibernate.type.TimeType@5e7d0449 
+DEBUG - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@5e7d0449 
+DEBUG - Adding type registration timestamp -> org.hibernate.type.TimestampType@4af45223 
+DEBUG - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@4af45223 
+DEBUG - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@4af45223 
+DEBUG - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@61ade7f6 
+DEBUG - Adding type registration calendar -> org.hibernate.type.CalendarType@3ca55242 
+DEBUG - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@3ca55242 
+DEBUG - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@3ca55242 
+DEBUG - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@6b7547a3 
+DEBUG - Adding type registration locale -> org.hibernate.type.LocaleType@4fea6c69 
+DEBUG - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@4fea6c69 
+DEBUG - Adding type registration currency -> org.hibernate.type.CurrencyType@53d5aeb 
+DEBUG - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@53d5aeb 
+DEBUG - Adding type registration timezone -> org.hibernate.type.TimeZoneType@6b6237fd 
+DEBUG - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@6b6237fd 
+DEBUG - Adding type registration class -> org.hibernate.type.ClassType@27bf7527 
+DEBUG - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@27bf7527 
+DEBUG - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@7c274874 
+DEBUG - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@7c274874 
+DEBUG - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@3370b55b 
+DEBUG - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@4931514b 
+DEBUG - Adding type registration binary -> org.hibernate.type.BinaryType@7dc6a657 
+DEBUG - Adding type registration byte[] -> org.hibernate.type.BinaryType@7dc6a657 
+DEBUG - Adding type registration [B -> org.hibernate.type.BinaryType@7dc6a657 
+DEBUG - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@4f614932 
+DEBUG - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@4f614932 
+DEBUG - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@4f614932 
+DEBUG - Adding type registration image -> org.hibernate.type.ImageType@5ff6670f 
+DEBUG - Adding type registration characters -> org.hibernate.type.CharArrayType@68f92ab0 
+DEBUG - Adding type registration char[] -> org.hibernate.type.CharArrayType@68f92ab0 
+DEBUG - Adding type registration [C -> org.hibernate.type.CharArrayType@68f92ab0 
+DEBUG - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@7283922 
+DEBUG - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@7283922 
+DEBUG - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@7283922 
+DEBUG - Adding type registration text -> org.hibernate.type.TextType@3676481e 
+DEBUG - Adding type registration ntext -> org.hibernate.type.NTextType@12d3e973 
+DEBUG - Adding type registration blob -> org.hibernate.type.BlobType@74cbe891 
+DEBUG - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@74cbe891 
+DEBUG - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@58c671b0 
+DEBUG - Adding type registration clob -> org.hibernate.type.ClobType@2e691714 
+DEBUG - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@2e691714 
+DEBUG - Adding type registration nclob -> org.hibernate.type.NClobType@42ac76c0 
+DEBUG - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@42ac76c0 
+DEBUG - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@2bd1232 
+DEBUG - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@510c7d5c 
+DEBUG - Adding type registration serializable -> org.hibernate.type.SerializableType@12d3e679 
+DEBUG - Adding type registration object -> org.hibernate.type.ObjectType@3a2da63a 
+DEBUG - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@3a2da63a 
+DEBUG - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@5fdce46d 
+DEBUG - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@1f18e146 
+DEBUG - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@1a6dca9d 
+DEBUG - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@1e1116f9 
+DEBUG - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@73fb44da 
+DEBUG - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@75657fb2 
+DEBUG - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@5aa2bb54 
+DEBUG - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@71b8b648 
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.1.Final} 
+INFO - HHH000412: Hibernate Core {4.3.0.Beta2} 
+INFO - HHH000206: hibernate.properties not found 
+INFO - HHH000021: Bytecode provider name : javassist 
+DEBUG - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned] 
+DEBUG - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator] 
+INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml 
+INFO - HHH000040: Configuration resource: /hibernate.cfg.xml 
+DEBUG - Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] 
+WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+DEBUG - Attempting to resolve on classpath under org/hibernate/ 
+DEBUG - Located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath 
+DEBUG - hibernate.connection.driver_class=com.mysql.jdbc.Driver 
+DEBUG - hibernate.connection.url=jdbc:mysql://localhost:3306/jlcindiadb 
+DEBUG - hibernate.connection.username=root 
+DEBUG - hibernate.connection.password=password 
+DEBUG - dialect=org.hibernate.dialect.MySQLDialect 
+DEBUG - show_sql=true 
+DEBUG - hbm2ddl.auto=update 
+DEBUG - Session-factory config [null] named class [com.jlcindia.hibernate.Student] for mapping 
+INFO - HHH000041: Configured SessionFactory: null 
+DEBUG - Properties: {hibernate.connection.password=password, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\Program Files\Java\jre7\bin, java.vm.version=24.80-b11, hibernate.connection.username=root, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specification, user.dir=E:\Hibernate\Lab4, java.runtime.version=1.7.0_80-b15, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, hbm2ddl.auto=update, java.endorsed.dirs=C:\Program Files\Java\jre7\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\Binod\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 8.1, sun.jnu.encoding=Cp1252, java.library.path=C:\Program Files\Java\jre7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_80\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;., java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.3, user.home=C:\Users\Binod, user.timezone=, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=Cp1252, java.specification.version=1.7, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, java.class.path=E:\Hibernate\Lab4\bin;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\antlr-2.7.7.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\dom4j-1.6.1.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\hibernate-commons-annotations-4.0.1.Final.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\hibernate-core-4.3.0.Beta2.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\hibernate-jpa-2.1-api-1.0.0.Draft-16.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\jandex-1.1.0.Alpha1.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\javassist-3.15.0-GA.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\jboss-logging-3.1.0.GA.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\jboss-transaction-api_1.2_spec-1.0.0.Alpha1.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\mysql-connector-java-5.1.45-bin.jar;E:\Important jars\jars\log4j-1.2.17.jar, user.name=Binod, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.java.command=com.jlcindia.hibernate.Lab4B, java.home=C:\Program Files\Java\jre7, sun.arch.data.model=64, hibernate.dialect=org.hibernate.dialect.MySQLDialect, hibernate.connection.url=jdbc:mysql://localhost:3306/jlcindiadb, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.7.0_80, java.ext.dirs=C:\Program Files\Java\jre7\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes, java.vendor=Oracle Corporation, file.separator=\, hibernate.hbm2ddl.auto=update, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, dialect=org.hibernate.dialect.MySQLDialect, sun.cpu.isalist=amd64} 
+DEBUG - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator]. 
+DEBUG - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator]. 
+DEBUG - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect] (replacing [org.hibernate.dialect.MySQL5Dialect]) 
+DEBUG - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect] (replacing [org.hibernate.dialect.MySQL5InnoDBDialect]) 
+DEBUG - Overriding existing service binding [org.hibernate.secure.spi.JaccService] 
+DEBUG - Preparing to build session factory with filters : {} 
+INFO - HHH000402: Using Hibernate built-in connection pool (not for production use!) 
+INFO - HHH000115: Hibernate connection pool size: 20 
+INFO - HHH000006: Autocommit mode: false 
+INFO - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/jlcindiadb] 
+INFO - HHH000046: Connection properties: {user=root, password=password} 
+DEBUG - DialectResolverSet is deprecated 
+DEBUG - DialectResolverSet is deprecated 
+DEBUG - Opening new JDBC connection 
+DEBUG - Created connection to: jdbc:mysql://localhost:3306/jlcindiadb, Isolation Level: 4 
+DEBUG - Database ->
+       name : MySQL
+    version : 5.5.1-m2-community
+      major : 5
+      minor : 5 
+DEBUG - Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.45 ( Revision: 9131eefa398531c7dc98776e8a3fe839e544c5b2 )
+      major : 5
+      minor : 1 
+DEBUG - JDBC version : 4.0 
+INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
+DEBUG - Processing hbm.xml files 
+DEBUG - Process annotated classes 
+DEBUG - Binding entity from annotated class: com.jlcindia.hibernate.Student 
+DEBUG - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'} 
+DEBUG - No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED 
+DEBUG - Import with entity name Student 
+DEBUG - Bind entity com.jlcindia.hibernate.Student on table students 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=sid, insertable=true, updatable=true, unique=false} 
+DEBUG - MetadataSourceProcessor property sid with lazy=false 
+DEBUG - building SimpleValue for sid 
+DEBUG - Building property sid 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=cname, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=idx, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=cname, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=courses_KEY, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='courses_KEY', referencedColumn='null', mappedBy='null'} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='sid', referencedColumn='', mappedBy=''} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''} 
+DEBUG - Collection role: com.jlcindia.hibernate.Student.courses 
+DEBUG - Building property courses 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=dob, insertable=true, updatable=true, unique=false} 
+DEBUG - MetadataSourceProcessor property dob with lazy=false 
+DEBUG - building SimpleValue for dob 
+DEBUG - Building property dob 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=emails, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=idx, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=emails, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=emails_KEY, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='emails_KEY', referencedColumn='null', mappedBy='null'} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='sid', referencedColumn='', mappedBy=''} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''} 
+DEBUG - Collection role: com.jlcindia.hibernate.Student.emails 
+DEBUG - Building property emails 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=marks, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=null, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=marks, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=marks_KEY, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='marks_KEY', referencedColumn='null', mappedBy='null'} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='sid', referencedColumn='', mappedBy=''} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''} 
+DEBUG - Collection role: com.jlcindia.hibernate.Student.marks 
+DEBUG - Building property marks 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=phones, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=null, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=phones, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=phones_KEY, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='phones_KEY', referencedColumn='null', mappedBy='null'} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='sid', referencedColumn='', mappedBy=''} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''} 
+DEBUG - Collection role: com.jlcindia.hibernate.Student.phones 
+DEBUG - Building property phones 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=quali, insertable=true, updatable=true, unique=false} 
+DEBUG - MetadataSourceProcessor property qualification with lazy=false 
+DEBUG - building SimpleValue for qualification 
+DEBUG - Building property qualification 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=rphone, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=null, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=rphone, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=rname, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='refs_KEY', referencedColumn='null', mappedBy='null'} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='sid', referencedColumn='', mappedBy=''} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''} 
+DEBUG - Collection role: com.jlcindia.hibernate.Student.refs 
+DEBUG - Building property refs 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=sname, insertable=true, updatable=true, unique=false} 
+DEBUG - MetadataSourceProcessor property sname with lazy=false 
+DEBUG - building SimpleValue for sname 
+DEBUG - Building property sname 
+DEBUG - Setting SimpleValue typeName for sid 
+DEBUG - Setting SimpleValue typeName for dob 
+DEBUG - Setting SimpleValue typeName for qualification 
+DEBUG - Setting SimpleValue typeName for sname 
+DEBUG - Processing fk mappings (*ToOne and JoinedSubclass) 
+DEBUG - Processing extends queue 
+DEBUG - Processing extends queue 
+DEBUG - Processing collection mappings 
+DEBUG - Second pass for collection: com.jlcindia.hibernate.Student.refs 
+DEBUG - Binding a collection of element: com.jlcindia.hibernate.Student.refs 
+DEBUG - Persistent Class name not known during attempt to locate @Convert annotations 
+DEBUG - building SimpleValue for null 
+DEBUG - Setting SimpleValue typeName for null 
+DEBUG - Persistent Class name not known during attempt to locate @Convert annotations 
+DEBUG - building SimpleValue for null 
+DEBUG - Setting SimpleValue typeName for null 
+DEBUG - Mapped collection key: sid, index: rname, element: rphone 
+DEBUG - Second pass for collection: com.jlcindia.hibernate.Student.phones 
+DEBUG - Binding a collection of element: com.jlcindia.hibernate.Student.phones 
+DEBUG - Persistent Class name not known during attempt to locate @Convert annotations 
+DEBUG - building SimpleValue for null 
+DEBUG - Setting SimpleValue typeName for null 
+DEBUG - Mapped collection key: sid, element: phones 
+DEBUG - Second pass for collection: com.jlcindia.hibernate.Student.marks 
+DEBUG - Binding a collection of element: com.jlcindia.hibernate.Student.marks 
+DEBUG - Persistent Class name not known during attempt to locate @Convert annotations 
+DEBUG - building SimpleValue for null 
+DEBUG - Setting SimpleValue typeName for null 
+DEBUG - Mapped collection key: sid, element: marks 
+DEBUG - Second pass for collection: com.jlcindia.hibernate.Student.emails 
+DEBUG - Binding a collection of element: com.jlcindia.hibernate.Student.emails 
+DEBUG - Persistent Class name not known during attempt to locate @Convert annotations 
+DEBUG - building SimpleValue for null 
+DEBUG - Setting SimpleValue typeName for null 
+DEBUG - building SimpleValue for null 
+DEBUG - Setting SimpleValue typeName for null 
+DEBUG - Mapped collection key: sid, index: idx, element: emails 
+DEBUG - Second pass for collection: com.jlcindia.hibernate.Student.courses 
+DEBUG - Binding a collection of element: com.jlcindia.hibernate.Student.courses 
+DEBUG - Persistent Class name not known during attempt to locate @Convert annotations 
+DEBUG - building SimpleValue for null 
+DEBUG - Setting SimpleValue typeName for null 
+DEBUG - building SimpleValue for null 
+DEBUG - Setting SimpleValue typeName for null 
+DEBUG - Mapped collection key: sid, index: idx, element: cname 
+DEBUG - Processing native query and ResultSetMapping mappings 
+DEBUG - Processing association property references 
+DEBUG - Creating tables' unique integer identifiers 
+DEBUG - Processing foreign key constraints 
+DEBUG - Resolving reference to class: com.jlcindia.hibernate.Student 
+DEBUG - Resolving reference to class: com.jlcindia.hibernate.Student 
+DEBUG - Resolving reference to class: com.jlcindia.hibernate.Student 
+DEBUG - Resolving reference to class: com.jlcindia.hibernate.Student 
+DEBUG - Resolving reference to class: com.jlcindia.hibernate.Student 
+DEBUG - No JtaPlatform was specified, checking resolver 
+DEBUG - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver] 
+DEBUG - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+DEBUG - Automatic flush during beforeCompletion(): disabled 
+DEBUG - Automatic session close at end of transaction: disabled 
+DEBUG - JDBC batch size: 15 
+DEBUG - JDBC batch updates for versioned data: disabled 
+DEBUG - Scrollable result sets: enabled 
+DEBUG - Wrap result sets: disabled 
+DEBUG - JDBC3 getGeneratedKeys(): enabled 
+DEBUG - multi-tenancy strategy : NONE 
+DEBUG - Connection release mode: auto 
+INFO - HHH000399: Using default transaction strategy (direct JDBC transactions) 
+DEBUG - Using BatchFetchStyle : LEGACY 
+DEBUG - Maximum outer join fetch depth: 2 
+DEBUG - Default batch fetch size: 1 
+DEBUG - Generate SQL with comments: disabled 
+DEBUG - Order SQL updates by primary key: disabled 
+DEBUG - Order SQL inserts for batching: disabled 
+DEBUG - Default null ordering: none 
+DEBUG - Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory 
+INFO - HHH000397: Using ASTQueryTranslatorFactory 
+DEBUG - Query language substitutions: {} 
+DEBUG - JPA-QL strict compliance: disabled 
+DEBUG - Second-level cache: enabled 
+DEBUG - Query cache: disabled 
+DEBUG - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory 
+DEBUG - Optimize cache for minimal puts: disabled 
+DEBUG - Structured second-level cache entries: disabled 
+DEBUG - Second-level cache direct-reference entries: disabled 
+DEBUG - Statistics: disabled 
+DEBUG - Deleted entity synthetic identifier rollback: disabled 
+DEBUG - Default entity-mode: pojo 
+DEBUG - Named query checking : enabled 
+DEBUG - Check Nullability in Core (should be disabled when Bean Validation is on): enabled 
+DEBUG - Allow initialization of lazy state outside session : : disabled 
+DEBUG - JTA Track by Thread: enabled 
+DEBUG - Building session factory 
+DEBUG - Session factory constructed with filter configurations : {} 
+DEBUG - Instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=password, sun.boot.library.path=C:\Program Files\Java\jre7\bin, java.vm.version=24.80-b11, hibernate.connection.username=root, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specification, user.dir=E:\Hibernate\Lab4, java.runtime.version=1.7.0_80-b15, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, hbm2ddl.auto=update, java.endorsed.dirs=C:\Program Files\Java\jre7\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\Binod\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 8.1, sun.jnu.encoding=Cp1252, java.library.path=C:\Program Files\Java\jre7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_80\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;., java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.3, user.home=C:\Users\Binod, user.timezone=, java.awt.printerjob=sun.awt.windows.WPrinterJob, java.specification.version=1.7, file.encoding=Cp1252, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, user.name=Binod, java.class.path=E:\Hibernate\Lab4\bin;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\antlr-2.7.7.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\dom4j-1.6.1.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\hibernate-commons-annotations-4.0.1.Final.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\hibernate-core-4.3.0.Beta2.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\hibernate-jpa-2.1-api-1.0.0.Draft-16.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\jandex-1.1.0.Alpha1.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\javassist-3.15.0-GA.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\jboss-logging-3.1.0.GA.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\jboss-transaction-api_1.2_spec-1.0.0.Alpha1.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\mysql-connector-java-5.1.45-bin.jar;E:\Important jars\jars\log4j-1.2.17.jar, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.arch.data.model=64, java.home=C:\Program Files\Java\jre7, sun.java.command=com.jlcindia.hibernate.Lab4B, hibernate.connection.url=jdbc:mysql://localhost:3306/jlcindiadb, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.specification.vendor=Oracle Corporation, user.language=en, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.7.0_80, java.ext.dirs=C:\Program Files\Java\jre7\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes, java.vendor=Oracle Corporation, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, hibernate.hbm2ddl.auto=update, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, sun.cpu.isalist=amd64, dialect=org.hibernate.dialect.MySQLDialect} 
+DEBUG - Skipping JACC integration as it was not enabled 
+DEBUG - Setting dialect [org.hibernate.dialect.MySQLDialect] 
+DEBUG - Static SQL for entity: com.jlcindia.hibernate.Student 
+DEBUG -  Version select: select sid from students where sid =? 
+DEBUG -  Snapshot select: select student_.sid, student_.dob as dob2_5_, student_.quali as quali3_5_, student_.sname as sname4_5_ from students student_ where student_.sid=? 
+DEBUG -  Insert 0: insert into students (dob, quali, sname, sid) values (?, ?, ?, ?) 
+DEBUG -  Update 0: update students set dob=?, quali=?, sname=? where sid=? 
+DEBUG -  Delete 0: delete from students where sid=? 
+DEBUG -  Identity insert: insert into students (dob, quali, sname) values (?, ?, ?) 
+DEBUG - Static SQL for collection: com.jlcindia.hibernate.Student.marks 
+DEBUG -  Row insert: insert into marks (sid, marks) values (?, ?) 
+DEBUG -  Row update: update marks set marks=? where sid=? and marks=? 
+DEBUG -  Row delete: delete from marks where sid=? and marks=? 
+DEBUG -  One-shot delete: delete from marks where sid=? 
+DEBUG - Static SQL for collection: com.jlcindia.hibernate.Student.phones 
+DEBUG -  Row insert: insert into phones (sid, phones) values (?, ?) 
+DEBUG -  Row update: update phones set phones=? where sid=? and phones=? 
+DEBUG -  Row delete: delete from phones where sid=? and phones=? 
+DEBUG -  One-shot delete: delete from phones where sid=? 
+DEBUG - Static SQL for collection: com.jlcindia.hibernate.Student.emails 
+DEBUG -  Row insert: insert into emails (sid, idx, emails) values (?, ?, ?) 
+DEBUG -  Row update: update emails set emails=? where sid=? and idx=? 
+DEBUG -  Row delete: delete from emails where sid=? and idx=? 
+DEBUG -  One-shot delete: delete from emails where sid=? 
+DEBUG - Static SQL for collection: com.jlcindia.hibernate.Student.refs 
+DEBUG -  Row insert: insert into refs (sid, rname, rphone) values (?, ?, ?) 
+DEBUG -  Row update: update refs set rphone=? where sid=? and rname=? 
+DEBUG -  Row delete: delete from refs where sid=? and rname=? 
+DEBUG -  One-shot delete: delete from refs where sid=? 
+DEBUG - Static SQL for collection: com.jlcindia.hibernate.Student.courses 
+DEBUG -  Row insert: insert into courses (sid, idx, cname) values (?, ?, ?) 
+DEBUG -  Row update: update courses set cname=? where sid=? and idx=? 
+DEBUG -  Row delete: delete from courses where sid=? and idx=? 
+DEBUG -  One-shot delete: delete from courses where sid=? 
+DEBUG - Static select for entity com.jlcindia.hibernate.Student [NONE]: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? 
+DEBUG - Static select for entity com.jlcindia.hibernate.Student [READ]: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? 
+DEBUG - Static select for entity com.jlcindia.hibernate.Student [UPGRADE]: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? for update 
+DEBUG - Static select for entity com.jlcindia.hibernate.Student [UPGRADE_NOWAIT]: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? for update 
+DEBUG - Static select for entity com.jlcindia.hibernate.Student [UPGRADE_SKIPLOCKED]: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? for update 
+DEBUG - Static select for entity com.jlcindia.hibernate.Student [FORCE]: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? for update 
+DEBUG - Static select for entity com.jlcindia.hibernate.Student [PESSIMISTIC_READ]: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? lock in share mode 
+DEBUG - Static select for entity com.jlcindia.hibernate.Student [PESSIMISTIC_WRITE]: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? for update 
+DEBUG - Static select for entity com.jlcindia.hibernate.Student [PESSIMISTIC_FORCE_INCREMENT]: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? for update 
+DEBUG - Static select for entity com.jlcindia.hibernate.Student [OPTIMISTIC]: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? 
+DEBUG - Static select for entity com.jlcindia.hibernate.Student [OPTIMISTIC_FORCE_INCREMENT]: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? 
+DEBUG - Static select for action ACTION_MERGE on entity com.jlcindia.hibernate.Student: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? 
+DEBUG - Static select for action ACTION_REFRESH on entity com.jlcindia.hibernate.Student: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? 
+DEBUG - Static select for collection com.jlcindia.hibernate.Student.marks: select marks0_.sid as sid1_5_0_, marks0_.marks as marks2_2_0_ from marks marks0_ where marks0_.sid=? 
+DEBUG - Static select for collection com.jlcindia.hibernate.Student.phones: select phones0_.sid as sid1_5_0_, phones0_.phones as phones2_3_0_ from phones phones0_ where phones0_.sid=? 
+DEBUG - Static select for collection com.jlcindia.hibernate.Student.emails: select emails0_.sid as sid1_5_0_, emails0_.emails as emails2_1_0_, emails0_.idx as idx3_0_ from emails emails0_ where emails0_.sid=? 
+DEBUG - Static select for collection com.jlcindia.hibernate.Student.courses: select courses0_.sid as sid1_5_0_, courses0_.cname as cname2_0_0_, courses0_.idx as idx3_0_ from courses courses0_ where courses0_.sid=? 
+DEBUG - Static select for collection com.jlcindia.hibernate.Student.refs: select refs0_.sid as sid1_5_0_, refs0_.rphone as rphone2_4_0_, refs0_.rname as rname3_0_ from refs refs0_ where refs0_.sid=? 
+DEBUG - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@6a7d46b8 
+DEBUG - Registering SessionFactory: 55778a81-d05e-49d7-a00d-337f19c8bfe1 (<unnamed>) 
+DEBUG - Not binding SessionFactory to JNDI, no JNDI name configured 
+DEBUG - Instantiated session factory 
+INFO - HHH000228: Running hbm2ddl schema update 
+INFO - HHH000102: Fetching database metadata 
+INFO - HHH000396: Updating schema 
+DEBUG - Processing hbm.xml files 
+DEBUG - Process annotated classes 
+DEBUG - Processing fk mappings (*ToOne and JoinedSubclass) 
+DEBUG - Processing extends queue 
+DEBUG - Processing extends queue 
+DEBUG - Processing collection mappings 
+DEBUG - Processing native query and ResultSetMapping mappings 
+DEBUG - Processing association property references 
+DEBUG - Creating tables' unique integer identifiers 
+DEBUG - Processing foreign key constraints 
+DEBUG - Resolving reference to class: com.jlcindia.hibernate.Student 
+DEBUG - Resolving reference to class: com.jlcindia.hibernate.Student 
+DEBUG - Resolving reference to class: com.jlcindia.hibernate.Student 
+DEBUG - Resolving reference to class: com.jlcindia.hibernate.Student 
+DEBUG - Resolving reference to class: com.jlcindia.hibernate.Student 
+INFO - HHH000261: Table found: jlcindiadb.courses 
+INFO - HHH000037: Columns: [sid, idx, cname] 
+INFO - HHH000108: Foreign keys: [fk_850cf7cff1554033b66e411453e] 
+INFO - HHH000126: Indexes: [fk_850cf7cff1554033b66e411453e, primary] 
+INFO - HHH000261: Table found: jlcindiadb.emails 
+INFO - HHH000037: Columns: [sid, idx, emails] 
+INFO - HHH000108: Foreign keys: [fk_49f67ec5a0244958a1c1f068893] 
+INFO - HHH000126: Indexes: [fk_49f67ec5a0244958a1c1f068893, primary] 
+INFO - HHH000261: Table found: jlcindiadb.marks 
+INFO - HHH000037: Columns: [sid, marks] 
+INFO - HHH000108: Foreign keys: [fk_74bde5d9e1874aaf8306193e066] 
+INFO - HHH000126: Indexes: [fk_74bde5d9e1874aaf8306193e066] 
+INFO - HHH000261: Table found: jlcindiadb.phones 
+INFO - HHH000037: Columns: [sid, phones] 
+INFO - HHH000108: Foreign keys: [fk_6143b8686b9f47b6949c3cb5b23] 
+INFO - HHH000126: Indexes: [fk_6143b8686b9f47b6949c3cb5b23] 
+INFO - HHH000261: Table found: jlcindiadb.refs 
+INFO - HHH000037: Columns: [sid, rname, rphone] 
+INFO - HHH000108: Foreign keys: [fk_89b89dec28074b3e997ef04a09e] 
+INFO - HHH000126: Indexes: [primary, fk_89b89dec28074b3e997ef04a09e] 
+INFO - HHH000261: Table found: jlcindiadb.students 
+INFO - HHH000037: Columns: [sid, quali, dob, sname] 
+INFO - HHH000108: Foreign keys: [] 
+INFO - HHH000126: Indexes: [primary] 
+DEBUG - Setting dialect [org.hibernate.dialect.MySQLDialect] 
+INFO - HHH000232: Schema update complete 
+DEBUG - Checking 0 named HQL queries 
+DEBUG - Checking 0 named SQL queries 
+DEBUG - Statistics initialized [enabled=false] 
+DEBUG - begin 
+DEBUG - Obtaining JDBC connection 
+DEBUG - Obtained JDBC connection 
+DEBUG - initial autocommit status: false 
+DEBUG - Initializing proxy: [com.jlcindia.hibernate.Student#1] 
+DEBUG - Loading entity: [com.jlcindia.hibernate.Student#1] 
+DEBUG - select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? 
+DEBUG - Result set row: 0 
+DEBUG - Result row: EntityKey[com.jlcindia.hibernate.Student#1] 
+DEBUG - Resolving associations for [com.jlcindia.hibernate.Student#1] 
+DEBUG - Loading collection: [com.jlcindia.hibernate.Student.courses#1] 
+DEBUG - select courses0_.sid as sid1_5_0_, courses0_.cname as cname2_0_0_, courses0_.idx as idx3_0_ from courses courses0_ where courses0_.sid=? 
+DEBUG - Result set contains (possibly empty) collection: [com.jlcindia.hibernate.Student.courses#1] 
+DEBUG - Result set row: 0 
+DEBUG - Result row:  
+DEBUG - Found row of collection: [com.jlcindia.hibernate.Student.courses#1] 
+DEBUG - Result set row: 1 
+DEBUG - Result row:  
+DEBUG - Found row of collection: [com.jlcindia.hibernate.Student.courses#1] 
+DEBUG - Result set row: 2 
+DEBUG - Result row:  
+DEBUG - Found row of collection: [com.jlcindia.hibernate.Student.courses#1] 
+DEBUG - 1 collections were found in result set for role: com.jlcindia.hibernate.Student.courses 
+DEBUG - Collection fully initialized: [com.jlcindia.hibernate.Student.courses#1] 
+DEBUG - 1 collections initialized for role: com.jlcindia.hibernate.Student.courses 
+DEBUG - Done loading collection 
+DEBUG - Done materializing entity [com.jlcindia.hibernate.Student#1] 
+DEBUG - Done entity load 
+DEBUG - Loading collection: [com.jlcindia.hibernate.Student.emails#1] 
+DEBUG - select emails0_.sid as sid1_5_0_, emails0_.emails as emails2_1_0_, emails0_.idx as idx3_0_ from emails emails0_ where emails0_.sid=? 
+DEBUG - Result set contains (possibly empty) collection: [com.jlcindia.hibernate.Student.emails#1] 
+DEBUG - Result set row: 0 
+DEBUG - Result row:  
+DEBUG - Found row of collection: [com.jlcindia.hibernate.Student.emails#1] 
+DEBUG - Result set row: 1 
+DEBUG - Result row:  
+DEBUG - Found row of collection: [com.jlcindia.hibernate.Student.emails#1] 
+DEBUG - Result set row: 2 
+DEBUG - Result row:  
+DEBUG - Found row of collection: [com.jlcindia.hibernate.Student.emails#1] 
+DEBUG - 1 collections were found in result set for role: com.jlcindia.hibernate.Student.emails 
+DEBUG - Collection fully initialized: [com.jlcindia.hibernate.Student.emails#1] 
+DEBUG - 1 collections initialized for role: com.jlcindia.hibernate.Student.emails 
+DEBUG - Done loading collection 
+DEBUG - Loading collection: [com.jlcindia.hibernate.Student.marks#1] 
+DEBUG - select marks0_.sid as sid1_5_0_, marks0_.marks as marks2_2_0_ from marks marks0_ where marks0_.sid=? 
+DEBUG - Result set contains (possibly empty) collection: [com.jlcindia.hibernate.Student.marks#1] 
+DEBUG - Result set row: 0 
+DEBUG - Result row:  
+DEBUG - Found row of collection: [com.jlcindia.hibernate.Student.marks#1] 
+DEBUG - Result set row: 1 
+DEBUG - Result row:  
+DEBUG - Found row of collection: [com.jlcindia.hibernate.Student.marks#1] 
+DEBUG - Result set row: 2 
+DEBUG - Result row:  
+DEBUG - Found row of collection: [com.jlcindia.hibernate.Student.marks#1] 
+DEBUG - 1 collections were found in result set for role: com.jlcindia.hibernate.Student.marks 
+DEBUG - Collection fully initialized: [com.jlcindia.hibernate.Student.marks#1] 
+DEBUG - 1 collections initialized for role: com.jlcindia.hibernate.Student.marks 
+DEBUG - Done loading collection 
+DEBUG - Loading collection: [com.jlcindia.hibernate.Student.phones#1] 
+DEBUG - select phones0_.sid as sid1_5_0_, phones0_.phones as phones2_3_0_ from phones phones0_ where phones0_.sid=? 
+DEBUG - Result set contains (possibly empty) collection: [com.jlcindia.hibernate.Student.phones#1] 
+DEBUG - Result set row: 0 
+DEBUG - Result row:  
+DEBUG - Found row of collection: [com.jlcindia.hibernate.Student.phones#1] 
+DEBUG - Result set row: 1 
+DEBUG - Result row:  
+DEBUG - Found row of collection: [com.jlcindia.hibernate.Student.phones#1] 
+DEBUG - Result set row: 2 
+DEBUG - Result row:  
+DEBUG - Found row of collection: [com.jlcindia.hibernate.Student.phones#1] 
+DEBUG - 1 collections were found in result set for role: com.jlcindia.hibernate.Student.phones 
+DEBUG - Collection fully initialized: [com.jlcindia.hibernate.Student.phones#1] 
+DEBUG - 1 collections initialized for role: com.jlcindia.hibernate.Student.phones 
+DEBUG - Done loading collection 
+DEBUG - Loading collection: [com.jlcindia.hibernate.Student.refs#1] 
+DEBUG - select refs0_.sid as sid1_5_0_, refs0_.rphone as rphone2_4_0_, refs0_.rname as rname3_0_ from refs refs0_ where refs0_.sid=? 
+DEBUG - Result set contains (possibly empty) collection: [com.jlcindia.hibernate.Student.refs#1] 
+DEBUG - Result set row: 0 
+DEBUG - Result row:  
+DEBUG - Found row of collection: [com.jlcindia.hibernate.Student.refs#1] 
+DEBUG - 1 collections were found in result set for role: com.jlcindia.hibernate.Student.refs 
+DEBUG - Collection fully initialized: [com.jlcindia.hibernate.Student.refs#1] 
+DEBUG - 1 collections initialized for role: com.jlcindia.hibernate.Student.refs 
+DEBUG - Done loading collection 
+DEBUG - committing 
+DEBUG - Processing flush-time cascades 
+DEBUG - Dirty checking collections 
+DEBUG - Collection found: [com.jlcindia.hibernate.Student.courses#1], was: [com.jlcindia.hibernate.Student.courses#1] (initialized) 
+DEBUG - Collection found: [com.jlcindia.hibernate.Student.emails#1], was: [com.jlcindia.hibernate.Student.emails#1] (initialized) 
+DEBUG - Collection found: [com.jlcindia.hibernate.Student.marks#1], was: [com.jlcindia.hibernate.Student.marks#1] (initialized) 
+DEBUG - Collection found: [com.jlcindia.hibernate.Student.phones#1], was: [com.jlcindia.hibernate.Student.phones#1] (initialized) 
+DEBUG - Collection found: [com.jlcindia.hibernate.Student.refs#1], was: [com.jlcindia.hibernate.Student.refs#1] (initialized) 
+DEBUG - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects 
+DEBUG - Flushed: 0 (re)creations, 0 updates, 0 removals to 5 collections 
+DEBUG - Listing entities: 
+DEBUG - com.jlcindia.hibernate.Student{sid=1, qualification=M.Sc, courses=[Java, JDBC, JSP], refs=[3333], marks=[100, 99, 100], dob=10-10-10, emails=[aa@jlc, bb@jlc, cc@jlc], sname=null, phones=[2222, 1111, 3333]} 
+DEBUG - committed JDBC Connection 
+DEBUG - Releasing JDBC connection 
+DEBUG - Released JDBC connection 
+DEBUG - Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+DEBUG - Adding type registration boolean -> org.hibernate.type.BooleanType@4fcd9ab8 
+DEBUG - Adding type registration boolean -> org.hibernate.type.BooleanType@4fcd9ab8 
+DEBUG - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@4fcd9ab8 
+DEBUG - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@4079d7b3 
+DEBUG - Adding type registration true_false -> org.hibernate.type.TrueFalseType@c8ed68a 
+DEBUG - Adding type registration yes_no -> org.hibernate.type.YesNoType@40cece16 
+DEBUG - Adding type registration byte -> org.hibernate.type.ByteType@7dfc719b 
+DEBUG - Adding type registration byte -> org.hibernate.type.ByteType@7dfc719b 
+DEBUG - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@7dfc719b 
+DEBUG - Adding type registration character -> org.hibernate.type.CharacterType@305e3ad0 
+DEBUG - Adding type registration char -> org.hibernate.type.CharacterType@305e3ad0 
+DEBUG - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@305e3ad0 
+DEBUG - Adding type registration short -> org.hibernate.type.ShortType@2a8f7943 
+DEBUG - Adding type registration short -> org.hibernate.type.ShortType@2a8f7943 
+DEBUG - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@2a8f7943 
+DEBUG - Adding type registration integer -> org.hibernate.type.IntegerType@2b3fc0bb 
+DEBUG - Adding type registration int -> org.hibernate.type.IntegerType@2b3fc0bb 
+DEBUG - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@2b3fc0bb 
+DEBUG - Adding type registration long -> org.hibernate.type.LongType@537827e9 
+DEBUG - Adding type registration long -> org.hibernate.type.LongType@537827e9 
+DEBUG - Adding type registration java.lang.Long -> org.hibernate.type.LongType@537827e9 
+DEBUG - Adding type registration float -> org.hibernate.type.FloatType@6a5c5b1d 
+DEBUG - Adding type registration float -> org.hibernate.type.FloatType@6a5c5b1d 
+DEBUG - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@6a5c5b1d 
+DEBUG - Adding type registration double -> org.hibernate.type.DoubleType@78a62840 
+DEBUG - Adding type registration double -> org.hibernate.type.DoubleType@78a62840 
+DEBUG - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@78a62840 
+DEBUG - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@82b6e48 
+DEBUG - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@82b6e48 
+DEBUG - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@7a07f1ac 
+DEBUG - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@7a07f1ac 
+DEBUG - Adding type registration string -> org.hibernate.type.StringType@4da7234f 
+DEBUG - Adding type registration java.lang.String -> org.hibernate.type.StringType@4da7234f 
+DEBUG - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@21cbd22 
+DEBUG - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@f5ad7f4 
+DEBUG - Adding type registration url -> org.hibernate.type.UrlType@116e3a7e 
+DEBUG - Adding type registration java.net.URL -> org.hibernate.type.UrlType@116e3a7e 
+DEBUG - Adding type registration date -> org.hibernate.type.DateType@cddb2e7 
+DEBUG - Adding type registration java.sql.Date -> org.hibernate.type.DateType@cddb2e7 
+DEBUG - Adding type registration time -> org.hibernate.type.TimeType@5fc0936 
+DEBUG - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@5fc0936 
+DEBUG - Adding type registration timestamp -> org.hibernate.type.TimestampType@65297ad9 
+DEBUG - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@65297ad9 
+DEBUG - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@65297ad9 
+DEBUG - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@12f64b73 
+DEBUG - Adding type registration calendar -> org.hibernate.type.CalendarType@2336f0c9 
+DEBUG - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@2336f0c9 
+DEBUG - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@2336f0c9 
+DEBUG - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@3290a11e 
+DEBUG - Adding type registration locale -> org.hibernate.type.LocaleType@5835fbdd 
+DEBUG - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@5835fbdd 
+DEBUG - Adding type registration currency -> org.hibernate.type.CurrencyType@65601e00 
+DEBUG - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@65601e00 
+DEBUG - Adding type registration timezone -> org.hibernate.type.TimeZoneType@f151bf2 
+DEBUG - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@f151bf2 
+DEBUG - Adding type registration class -> org.hibernate.type.ClassType@76a2f910 
+DEBUG - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@76a2f910 
+DEBUG - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@47078775 
+DEBUG - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@47078775 
+DEBUG - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@21da0a1 
+DEBUG - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@43be3ce6 
+DEBUG - Adding type registration binary -> org.hibernate.type.BinaryType@578cef18 
+DEBUG - Adding type registration byte[] -> org.hibernate.type.BinaryType@578cef18 
+DEBUG - Adding type registration [B -> org.hibernate.type.BinaryType@578cef18 
+DEBUG - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@1f488344 
+DEBUG - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@1f488344 
+DEBUG - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@1f488344 
+DEBUG - Adding type registration image -> org.hibernate.type.ImageType@78d59861 
+DEBUG - Adding type registration characters -> org.hibernate.type.CharArrayType@246b5488 
+DEBUG - Adding type registration char[] -> org.hibernate.type.CharArrayType@246b5488 
+DEBUG - Adding type registration [C -> org.hibernate.type.CharArrayType@246b5488 
+DEBUG - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@6e26d149 
+DEBUG - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@6e26d149 
+DEBUG - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@6e26d149 
+DEBUG - Adding type registration text -> org.hibernate.type.TextType@25ab52f7 
+DEBUG - Adding type registration ntext -> org.hibernate.type.NTextType@1c455c33 
+DEBUG - Adding type registration blob -> org.hibernate.type.BlobType@480a6370 
+DEBUG - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@480a6370 
+DEBUG - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@712d0ef5 
+DEBUG - Adding type registration clob -> org.hibernate.type.ClobType@30407e62 
+DEBUG - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@30407e62 
+DEBUG - Adding type registration nclob -> org.hibernate.type.NClobType@27ae011 
+DEBUG - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@27ae011 
+DEBUG - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@1252d43 
+DEBUG - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@1eab12f1 
+DEBUG - Adding type registration serializable -> org.hibernate.type.SerializableType@4c6aacbf 
+DEBUG - Adding type registration object -> org.hibernate.type.ObjectType@80a5b02 
+DEBUG - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@80a5b02 
+DEBUG - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@575555bf 
+DEBUG - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@23709b64 
+DEBUG - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@35e9d469 
+DEBUG - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@a785526 
+DEBUG - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@621e3728 
+DEBUG - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@2db7556b 
+DEBUG - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@5f48fb3f 
+DEBUG - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@306715f8 
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.1.Final} 
+INFO - HHH000412: Hibernate Core {4.3.0.Beta2} 
+INFO - HHH000206: hibernate.properties not found 
+INFO - HHH000021: Bytecode provider name : javassist 
+DEBUG - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned] 
+DEBUG - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator] 
+DEBUG - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator] 
+INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml 
+INFO - HHH000040: Configuration resource: /hibernate.cfg.xml 
+DEBUG - Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] 
+WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+DEBUG - Attempting to resolve on classpath under org/hibernate/ 
+DEBUG - Located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath 
+DEBUG - hibernate.connection.driver_class=com.mysql.jdbc.Driver 
+DEBUG - hibernate.connection.url=jdbc:mysql://localhost:3306/jlcindiadb 
+DEBUG - hibernate.connection.username=root 
+DEBUG - hibernate.connection.password=password 
+DEBUG - dialect=org.hibernate.dialect.MySQLDialect 
+DEBUG - show_sql=true 
+DEBUG - hbm2ddl.auto=update 
+DEBUG - Session-factory config [null] named class [com.jlcindia.hibernate.Student] for mapping 
+INFO - HHH000041: Configured SessionFactory: null 
+DEBUG - Properties: {hibernate.connection.password=password, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\Program Files\Java\jre7\bin, java.vm.version=24.80-b11, hibernate.connection.username=root, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specification, user.dir=E:\Hibernate\Lab4, java.runtime.version=1.7.0_80-b15, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, hbm2ddl.auto=update, java.endorsed.dirs=C:\Program Files\Java\jre7\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\Binod\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 8.1, sun.jnu.encoding=Cp1252, java.library.path=C:\Program Files\Java\jre7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_80\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;., java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.3, user.home=C:\Users\Binod, user.timezone=, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=Cp1252, java.specification.version=1.7, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, java.class.path=E:\Hibernate\Lab4\bin;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\antlr-2.7.7.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\dom4j-1.6.1.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\hibernate-commons-annotations-4.0.1.Final.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\hibernate-core-4.3.0.Beta2.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\hibernate-jpa-2.1-api-1.0.0.Draft-16.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\jandex-1.1.0.Alpha1.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\javassist-3.15.0-GA.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\jboss-logging-3.1.0.GA.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\jboss-transaction-api_1.2_spec-1.0.0.Alpha1.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\mysql-connector-java-5.1.45-bin.jar;E:\Important jars\jars\log4j-1.2.17.jar, user.name=Binod, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.java.command=com.jlcindia.hibernate.Lab4A, java.home=C:\Program Files\Java\jre7, sun.arch.data.model=64, hibernate.dialect=org.hibernate.dialect.MySQLDialect, hibernate.connection.url=jdbc:mysql://localhost:3306/jlcindiadb, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.7.0_80, java.ext.dirs=C:\Program Files\Java\jre7\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes, java.vendor=Oracle Corporation, file.separator=\, hibernate.hbm2ddl.auto=update, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, dialect=org.hibernate.dialect.MySQLDialect, sun.cpu.isalist=amd64} 
+DEBUG - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator]. 
+DEBUG - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator]. 
+DEBUG - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect] (replacing [org.hibernate.dialect.MySQL5Dialect]) 
+DEBUG - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect] (replacing [org.hibernate.dialect.MySQL5InnoDBDialect]) 
+DEBUG - Overriding existing service binding [org.hibernate.secure.spi.JaccService] 
+DEBUG - Preparing to build session factory with filters : {} 
+INFO - HHH000402: Using Hibernate built-in connection pool (not for production use!) 
+INFO - HHH000115: Hibernate connection pool size: 20 
+INFO - HHH000006: Autocommit mode: false 
+INFO - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/jlcindiadb] 
+INFO - HHH000046: Connection properties: {user=root, password=password} 
+DEBUG - DialectResolverSet is deprecated 
+DEBUG - DialectResolverSet is deprecated 
+DEBUG - Opening new JDBC connection 
+DEBUG - Created connection to: jdbc:mysql://localhost:3306/jlcindiadb, Isolation Level: 4 
+DEBUG - Database ->
+       name : MySQL
+    version : 5.5.1-m2-community
+      major : 5
+      minor : 5 
+DEBUG - Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.45 ( Revision: 9131eefa398531c7dc98776e8a3fe839e544c5b2 )
+      major : 5
+      minor : 1 
+DEBUG - JDBC version : 4.0 
+INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
+DEBUG - Processing hbm.xml files 
+DEBUG - Process annotated classes 
+DEBUG - Binding entity from annotated class: com.jlcindia.hibernate.Student 
+DEBUG - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'} 
+DEBUG - No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED 
+DEBUG - Import with entity name Student 
+DEBUG - Bind entity com.jlcindia.hibernate.Student on table students 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=sid, insertable=true, updatable=true, unique=false} 
+DEBUG - MetadataSourceProcessor property sid with lazy=false 
+DEBUG - building SimpleValue for sid 
+DEBUG - Building property sid 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=cname, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=idx, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=cname, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=courses_KEY, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='courses_KEY', referencedColumn='null', mappedBy='null'} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='sid', referencedColumn='', mappedBy=''} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''} 
+DEBUG - Collection role: com.jlcindia.hibernate.Student.courses 
+DEBUG - Building property courses 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=dob, insertable=true, updatable=true, unique=false} 
+DEBUG - MetadataSourceProcessor property dob with lazy=false 
+DEBUG - building SimpleValue for dob 
+DEBUG - Building property dob 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=emails, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=idx, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=emails, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=emails_KEY, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='emails_KEY', referencedColumn='null', mappedBy='null'} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='sid', referencedColumn='', mappedBy=''} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''} 
+DEBUG - Collection role: com.jlcindia.hibernate.Student.emails 
+DEBUG - Building property emails 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=marks, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=null, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=marks, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=marks_KEY, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='marks_KEY', referencedColumn='null', mappedBy='null'} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='sid', referencedColumn='', mappedBy=''} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''} 
+DEBUG - Collection role: com.jlcindia.hibernate.Student.marks 
+DEBUG - Building property marks 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=phones, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=null, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=phones, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=phones_KEY, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='phones_KEY', referencedColumn='null', mappedBy='null'} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='sid', referencedColumn='', mappedBy=''} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''} 
+DEBUG - Collection role: com.jlcindia.hibernate.Student.phones 
+DEBUG - Building property phones 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=quali, insertable=true, updatable=true, unique=false} 
+DEBUG - MetadataSourceProcessor property qualification with lazy=false 
+DEBUG - building SimpleValue for qualification 
+DEBUG - Building property qualification 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=rphone, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=null, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=rphone, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=rname, insertable=true, updatable=true, unique=false} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='refs_KEY', referencedColumn='null', mappedBy='null'} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='sid', referencedColumn='', mappedBy=''} 
+DEBUG - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''} 
+DEBUG - Collection role: com.jlcindia.hibernate.Student.refs 
+DEBUG - Building property refs 
+DEBUG - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=sname, insertable=true, updatable=true, unique=false} 
+DEBUG - MetadataSourceProcessor property sname with lazy=false 
+DEBUG - building SimpleValue for sname 
+DEBUG - Building property sname 
+DEBUG - Setting SimpleValue typeName for sid 
+DEBUG - Setting SimpleValue typeName for dob 
+DEBUG - Setting SimpleValue typeName for qualification 
+DEBUG - Setting SimpleValue typeName for sname 
+DEBUG - Processing fk mappings (*ToOne and JoinedSubclass) 
+DEBUG - Processing extends queue 
+DEBUG - Processing extends queue 
+DEBUG - Processing collection mappings 
+DEBUG - Second pass for collection: com.jlcindia.hibernate.Student.refs 
+DEBUG - Binding a collection of element: com.jlcindia.hibernate.Student.refs 
+DEBUG - Persistent Class name not known during attempt to locate @Convert annotations 
+DEBUG - building SimpleValue for null 
+DEBUG - Setting SimpleValue typeName for null 
+DEBUG - Persistent Class name not known during attempt to locate @Convert annotations 
+DEBUG - building SimpleValue for null 
+DEBUG - Setting SimpleValue typeName for null 
+DEBUG - Mapped collection key: sid, index: rname, element: rphone 
+DEBUG - Second pass for collection: com.jlcindia.hibernate.Student.phones 
+DEBUG - Binding a collection of element: com.jlcindia.hibernate.Student.phones 
+DEBUG - Persistent Class name not known during attempt to locate @Convert annotations 
+DEBUG - building SimpleValue for null 
+DEBUG - Setting SimpleValue typeName for null 
+DEBUG - Mapped collection key: sid, element: phones 
+DEBUG - Second pass for collection: com.jlcindia.hibernate.Student.marks 
+DEBUG - Binding a collection of element: com.jlcindia.hibernate.Student.marks 
+DEBUG - Persistent Class name not known during attempt to locate @Convert annotations 
+DEBUG - building SimpleValue for null 
+DEBUG - Setting SimpleValue typeName for null 
+DEBUG - Mapped collection key: sid, element: marks 
+DEBUG - Second pass for collection: com.jlcindia.hibernate.Student.emails 
+DEBUG - Binding a collection of element: com.jlcindia.hibernate.Student.emails 
+DEBUG - Persistent Class name not known during attempt to locate @Convert annotations 
+DEBUG - building SimpleValue for null 
+DEBUG - Setting SimpleValue typeName for null 
+DEBUG - building SimpleValue for null 
+DEBUG - Setting SimpleValue typeName for null 
+DEBUG - Mapped collection key: sid, index: idx, element: emails 
+DEBUG - Second pass for collection: com.jlcindia.hibernate.Student.courses 
+DEBUG - Binding a collection of element: com.jlcindia.hibernate.Student.courses 
+DEBUG - Persistent Class name not known during attempt to locate @Convert annotations 
+DEBUG - building SimpleValue for null 
+DEBUG - Setting SimpleValue typeName for null 
+DEBUG - building SimpleValue for null 
+DEBUG - Setting SimpleValue typeName for null 
+DEBUG - Mapped collection key: sid, index: idx, element: cname 
+DEBUG - Processing native query and ResultSetMapping mappings 
+DEBUG - Processing association property references 
+DEBUG - Creating tables' unique integer identifiers 
+DEBUG - Processing foreign key constraints 
+DEBUG - Resolving reference to class: com.jlcindia.hibernate.Student 
+DEBUG - Resolving reference to class: com.jlcindia.hibernate.Student 
+DEBUG - Resolving reference to class: com.jlcindia.hibernate.Student 
+DEBUG - Resolving reference to class: com.jlcindia.hibernate.Student 
+DEBUG - Resolving reference to class: com.jlcindia.hibernate.Student 
+DEBUG - No JtaPlatform was specified, checking resolver 
+DEBUG - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver] 
+DEBUG - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+DEBUG - Automatic flush during beforeCompletion(): disabled 
+DEBUG - Automatic session close at end of transaction: disabled 
+DEBUG - JDBC batch size: 15 
+DEBUG - JDBC batch updates for versioned data: disabled 
+DEBUG - Scrollable result sets: enabled 
+DEBUG - Wrap result sets: disabled 
+DEBUG - JDBC3 getGeneratedKeys(): enabled 
+DEBUG - multi-tenancy strategy : NONE 
+DEBUG - Connection release mode: auto 
+INFO - HHH000399: Using default transaction strategy (direct JDBC transactions) 
+DEBUG - Using BatchFetchStyle : LEGACY 
+DEBUG - Maximum outer join fetch depth: 2 
+DEBUG - Default batch fetch size: 1 
+DEBUG - Generate SQL with comments: disabled 
+DEBUG - Order SQL updates by primary key: disabled 
+DEBUG - Order SQL inserts for batching: disabled 
+DEBUG - Default null ordering: none 
+DEBUG - Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory 
+INFO - HHH000397: Using ASTQueryTranslatorFactory 
+DEBUG - Query language substitutions: {} 
+DEBUG - JPA-QL strict compliance: disabled 
+DEBUG - Second-level cache: enabled 
+DEBUG - Query cache: disabled 
+DEBUG - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory 
+DEBUG - Optimize cache for minimal puts: disabled 
+DEBUG - Structured second-level cache entries: disabled 
+DEBUG - Second-level cache direct-reference entries: disabled 
+DEBUG - Statistics: disabled 
+DEBUG - Deleted entity synthetic identifier rollback: disabled 
+DEBUG - Default entity-mode: pojo 
+DEBUG - Named query checking : enabled 
+DEBUG - Check Nullability in Core (should be disabled when Bean Validation is on): enabled 
+DEBUG - Allow initialization of lazy state outside session : : disabled 
+DEBUG - JTA Track by Thread: enabled 
+DEBUG - Building session factory 
+DEBUG - Session factory constructed with filter configurations : {} 
+DEBUG - Instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=password, sun.boot.library.path=C:\Program Files\Java\jre7\bin, java.vm.version=24.80-b11, hibernate.connection.username=root, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specification, user.dir=E:\Hibernate\Lab4, java.runtime.version=1.7.0_80-b15, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, hbm2ddl.auto=update, java.endorsed.dirs=C:\Program Files\Java\jre7\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\Binod\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 8.1, sun.jnu.encoding=Cp1252, java.library.path=C:\Program Files\Java\jre7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_80\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;., java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.3, user.home=C:\Users\Binod, user.timezone=, java.awt.printerjob=sun.awt.windows.WPrinterJob, java.specification.version=1.7, file.encoding=Cp1252, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, user.name=Binod, java.class.path=E:\Hibernate\Lab4\bin;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\antlr-2.7.7.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\dom4j-1.6.1.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\hibernate-commons-annotations-4.0.1.Final.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\hibernate-core-4.3.0.Beta2.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\hibernate-jpa-2.1-api-1.0.0.Draft-16.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\jandex-1.1.0.Alpha1.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\javassist-3.15.0-GA.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\jboss-logging-3.1.0.GA.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\Jars\required\jboss-transaction-api_1.2_spec-1.0.0.Alpha1.jar;E:\Others\Java Software\Student DVD JLC\Student DVD\Hibernate 4.3\mysql-connector-java-5.1.45-bin.jar;E:\Important jars\jars\log4j-1.2.17.jar, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.arch.data.model=64, java.home=C:\Program Files\Java\jre7, sun.java.command=com.jlcindia.hibernate.Lab4A, hibernate.connection.url=jdbc:mysql://localhost:3306/jlcindiadb, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.specification.vendor=Oracle Corporation, user.language=en, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.7.0_80, java.ext.dirs=C:\Program Files\Java\jre7\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes, java.vendor=Oracle Corporation, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, hibernate.hbm2ddl.auto=update, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, sun.cpu.isalist=amd64, dialect=org.hibernate.dialect.MySQLDialect} 
+DEBUG - Skipping JACC integration as it was not enabled 
+DEBUG - Setting dialect [org.hibernate.dialect.MySQLDialect] 
+DEBUG - Static SQL for entity: com.jlcindia.hibernate.Student 
+DEBUG -  Version select: select sid from students where sid =? 
+DEBUG -  Snapshot select: select student_.sid, student_.dob as dob2_5_, student_.quali as quali3_5_, student_.sname as sname4_5_ from students student_ where student_.sid=? 
+DEBUG -  Insert 0: insert into students (dob, quali, sname, sid) values (?, ?, ?, ?) 
+DEBUG -  Update 0: update students set dob=?, quali=?, sname=? where sid=? 
+DEBUG -  Delete 0: delete from students where sid=? 
+DEBUG -  Identity insert: insert into students (dob, quali, sname) values (?, ?, ?) 
+DEBUG - Static SQL for collection: com.jlcindia.hibernate.Student.marks 
+DEBUG -  Row insert: insert into marks (sid, marks) values (?, ?) 
+DEBUG -  Row update: update marks set marks=? where sid=? and marks=? 
+DEBUG -  Row delete: delete from marks where sid=? and marks=? 
+DEBUG -  One-shot delete: delete from marks where sid=? 
+DEBUG - Static SQL for collection: com.jlcindia.hibernate.Student.phones 
+DEBUG -  Row insert: insert into phones (sid, phones) values (?, ?) 
+DEBUG -  Row update: update phones set phones=? where sid=? and phones=? 
+DEBUG -  Row delete: delete from phones where sid=? and phones=? 
+DEBUG -  One-shot delete: delete from phones where sid=? 
+DEBUG - Static SQL for collection: com.jlcindia.hibernate.Student.emails 
+DEBUG -  Row insert: insert into emails (sid, idx, emails) values (?, ?, ?) 
+DEBUG -  Row update: update emails set emails=? where sid=? and idx=? 
+DEBUG -  Row delete: delete from emails where sid=? and idx=? 
+DEBUG -  One-shot delete: delete from emails where sid=? 
+DEBUG - Static SQL for collection: com.jlcindia.hibernate.Student.refs 
+DEBUG -  Row insert: insert into refs (sid, rname, rphone) values (?, ?, ?) 
+DEBUG -  Row update: update refs set rphone=? where sid=? and rname=? 
+DEBUG -  Row delete: delete from refs where sid=? and rname=? 
+DEBUG -  One-shot delete: delete from refs where sid=? 
+DEBUG - Static SQL for collection: com.jlcindia.hibernate.Student.courses 
+DEBUG -  Row insert: insert into courses (sid, idx, cname) values (?, ?, ?) 
+DEBUG -  Row update: update courses set cname=? where sid=? and idx=? 
+DEBUG -  Row delete: delete from courses where sid=? and idx=? 
+DEBUG -  One-shot delete: delete from courses where sid=? 
+DEBUG - Static select for entity com.jlcindia.hibernate.Student [NONE]: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? 
+DEBUG - Static select for entity com.jlcindia.hibernate.Student [READ]: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? 
+DEBUG - Static select for entity com.jlcindia.hibernate.Student [UPGRADE]: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? for update 
+DEBUG - Static select for entity com.jlcindia.hibernate.Student [UPGRADE_NOWAIT]: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? for update 
+DEBUG - Static select for entity com.jlcindia.hibernate.Student [UPGRADE_SKIPLOCKED]: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? for update 
+DEBUG - Static select for entity com.jlcindia.hibernate.Student [FORCE]: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? for update 
+DEBUG - Static select for entity com.jlcindia.hibernate.Student [PESSIMISTIC_READ]: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? lock in share mode 
+DEBUG - Static select for entity com.jlcindia.hibernate.Student [PESSIMISTIC_WRITE]: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? for update 
+DEBUG - Static select for entity com.jlcindia.hibernate.Student [PESSIMISTIC_FORCE_INCREMENT]: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? for update 
+DEBUG - Static select for entity com.jlcindia.hibernate.Student [OPTIMISTIC]: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? 
+DEBUG - Static select for entity com.jlcindia.hibernate.Student [OPTIMISTIC_FORCE_INCREMENT]: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? 
+DEBUG - Static select for action ACTION_MERGE on entity com.jlcindia.hibernate.Student: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? 
+DEBUG - Static select for action ACTION_REFRESH on entity com.jlcindia.hibernate.Student: select student0_.sid as sid1_5_0_, student0_.dob as dob2_5_0_, student0_.quali as quali3_5_0_, student0_.sname as sname4_5_0_ from students student0_ where student0_.sid=? 
+DEBUG - Static select for collection com.jlcindia.hibernate.Student.marks: select marks0_.sid as sid1_5_0_, marks0_.marks as marks2_2_0_ from marks marks0_ where marks0_.sid=? 
+DEBUG - Static select for collection com.jlcindia.hibernate.Student.phones: select phones0_.sid as sid1_5_0_, phones0_.phones as phones2_3_0_ from phones phones0_ where phones0_.sid=? 
+DEBUG - Static select for collection com.jlcindia.hibernate.Student.emails: select emails0_.sid as sid1_5_0_, emails0_.emails as emails2_1_0_, emails0_.idx as idx3_0_ from emails emails0_ where emails0_.sid=? 
+DEBUG - Static select for collection com.jlcindia.hibernate.Student.courses: select courses0_.sid as sid1_5_0_, courses0_.cname as cname2_0_0_, courses0_.idx as idx3_0_ from courses courses0_ where courses0_.sid=? 
+DEBUG - Static select for collection com.jlcindia.hibernate.Student.refs: select refs0_.sid as sid1_5_0_, refs0_.rphone as rphone2_4_0_, refs0_.rname as rname3_0_ from refs refs0_ where refs0_.sid=? 
+DEBUG - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@209b8f1d 
+DEBUG - Registering SessionFactory: 85b437cd-7a74-4c62-87fd-8e29b5f0d790 (<unnamed>) 
+DEBUG - Not binding SessionFactory to JNDI, no JNDI name configured 
+DEBUG - Instantiated session factory 
+INFO - HHH000228: Running hbm2ddl schema update 
+INFO - HHH000102: Fetching database metadata 
+INFO - HHH000396: Updating schema 
+DEBUG - Processing hbm.xml files 
+DEBUG - Process annotated classes 
+DEBUG - Processing fk mappings (*ToOne and JoinedSubclass) 
+DEBUG - Processing extends queue 
+DEBUG - Processing extends queue 
+DEBUG - Processing collection mappings 
+DEBUG - Processing native query and ResultSetMapping mappings 
+DEBUG - Processing association property references 
+DEBUG - Creating tables' unique integer identifiers 
+DEBUG - Processing foreign key constraints 
+DEBUG - Resolving reference to class: com.jlcindia.hibernate.Student 
+DEBUG - Resolving reference to class: com.jlcindia.hibernate.Student 
+DEBUG - Resolving reference to class: com.jlcindia.hibernate.Student 
+DEBUG - Resolving reference to class: com.jlcindia.hibernate.Student 
+DEBUG - Resolving reference to class: com.jlcindia.hibernate.Student 
+INFO - HHH000261: Table found: jlcindiadb.courses 
+INFO - HHH000037: Columns: [sid, idx, cname] 
+INFO - HHH000108: Foreign keys: [fk_850cf7cff1554033b66e411453e] 
+INFO - HHH000126: Indexes: [fk_850cf7cff1554033b66e411453e, primary] 
+INFO - HHH000261: Table found: jlcindiadb.emails 
+INFO - HHH000037: Columns: [sid, idx, emails] 
+INFO - HHH000108: Foreign keys: [fk_49f67ec5a0244958a1c1f068893] 
+INFO - HHH000126: Indexes: [fk_49f67ec5a0244958a1c1f068893, primary] 
+INFO - HHH000261: Table found: jlcindiadb.marks 
+INFO - HHH000037: Columns: [sid, marks] 
+INFO - HHH000108: Foreign keys: [fk_74bde5d9e1874aaf8306193e066] 
+INFO - HHH000126: Indexes: [fk_74bde5d9e1874aaf8306193e066] 
+INFO - HHH000261: Table found: jlcindiadb.phones 
+INFO - HHH000037: Columns: [sid, phones] 
+INFO - HHH000108: Foreign keys: [fk_6143b8686b9f47b6949c3cb5b23] 
+INFO - HHH000126: Indexes: [fk_6143b8686b9f47b6949c3cb5b23] 
+INFO - HHH000261: Table found: jlcindiadb.refs 
+INFO - HHH000037: Columns: [sid, rname, rphone] 
+INFO - HHH000108: Foreign keys: [fk_89b89dec28074b3e997ef04a09e] 
+INFO - HHH000126: Indexes: [primary, fk_89b89dec28074b3e997ef04a09e] 
+INFO - HHH000261: Table found: jlcindiadb.students 
+INFO - HHH000037: Columns: [sid, quali, dob, sname] 
+INFO - HHH000108: Foreign keys: [] 
+INFO - HHH000126: Indexes: [primary] 
+DEBUG - Setting dialect [org.hibernate.dialect.MySQLDialect] 
+INFO - HHH000232: Schema update complete 
+DEBUG - Checking 0 named HQL queries 
+DEBUG - Checking 0 named SQL queries 
+DEBUG - Statistics initialized [enabled=false] 
+DEBUG - begin 
+DEBUG - Obtaining JDBC connection 
+DEBUG - Obtained JDBC connection 
+DEBUG - initial autocommit status: false 
+DEBUG - Executing identity-insert immediately 
+DEBUG - insert into students (dob, quali, sname) values (?, ?, ?) 
+DEBUG - Natively generated identity: 3 
+DEBUG - committing 
+DEBUG - Processing flush-time cascades 
+DEBUG - Dirty checking collections 
+DEBUG - Collection found: [com.jlcindia.hibernate.Student.courses#3], was: [<unreferenced>] (initialized) 
+DEBUG - Collection found: [com.jlcindia.hibernate.Student.emails#3], was: [<unreferenced>] (initialized) 
+DEBUG - Collection found: [com.jlcindia.hibernate.Student.marks#3], was: [<unreferenced>] (initialized) 
+DEBUG - Collection found: [com.jlcindia.hibernate.Student.phones#3], was: [<unreferenced>] (initialized) 
+DEBUG - Collection found: [com.jlcindia.hibernate.Student.refs#3], was: [<unreferenced>] (initialized) 
+DEBUG - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects 
+DEBUG - Flushed: 5 (re)creations, 0 updates, 0 removals to 5 collections 
+DEBUG - Listing entities: 
+DEBUG - com.jlcindia.hibernate.Student{sid=3, qualification=M.Sc, courses=[Java, JDBC, JSP], refs=[3333], marks=[100, 99, 100], dob=10-10-10, emails=[aa@jlc, bb@jlc, cc@jlc], sname=null, phones=[2222, 1111, 3333]} 
+DEBUG - Inserting collection: [com.jlcindia.hibernate.Student.courses#3] 
+DEBUG - insert into courses (sid, idx, cname) values (?, ?, ?) 
+DEBUG - insert into courses (sid, idx, cname) values (?, ?, ?) 
+DEBUG - insert into courses (sid, idx, cname) values (?, ?, ?) 
+DEBUG - Done inserting collection: 3 rows inserted 
+DEBUG - Inserting collection: [com.jlcindia.hibernate.Student.emails#3] 
+DEBUG - insert into emails (sid, idx, emails) values (?, ?, ?) 
+DEBUG - insert into emails (sid, idx, emails) values (?, ?, ?) 
+DEBUG - insert into emails (sid, idx, emails) values (?, ?, ?) 
+DEBUG - Done inserting collection: 3 rows inserted 
+DEBUG - Inserting collection: [com.jlcindia.hibernate.Student.marks#3] 
+DEBUG - insert into marks (sid, marks) values (?, ?) 
+DEBUG - insert into marks (sid, marks) values (?, ?) 
+DEBUG - insert into marks (sid, marks) values (?, ?) 
+DEBUG - Done inserting collection: 3 rows inserted 
+DEBUG - Inserting collection: [com.jlcindia.hibernate.Student.phones#3] 
+DEBUG - insert into phones (sid, phones) values (?, ?) 
+DEBUG - insert into phones (sid, phones) values (?, ?) 
+DEBUG - insert into phones (sid, phones) values (?, ?) 
+DEBUG - Done inserting collection: 3 rows inserted 
+DEBUG - Inserting collection: [com.jlcindia.hibernate.Student.refs#3] 
+DEBUG - insert into refs (sid, rname, rphone) values (?, ?, ?) 
+DEBUG - Done inserting collection: 1 rows inserted 
+DEBUG - committed JDBC Connection 
+DEBUG - HHH000420: Closing un-released batch 
+DEBUG - Releasing JDBC connection 
+DEBUG - Released JDBC connection 

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<display-name>Lab12</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+		<!-- <welcome-file>index.html</welcome-file> <welcome-file>index.htm</welcome-file> 
+			<welcome-file>default.html</welcome-file> <welcome-file>default.htm</welcome-file> 
+			<welcome-file>default.jsp</welcome-file> -->
+	</welcome-file-list>
+	<servlet>
+		<description></description>
+		<display-name>SearchBookServlet</display-name>
+		<servlet-name>SearchBookServlet</servlet-name>
+		<servlet-class>com.jlcindia.servlets.SearchBookServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SearchBookServlet</servlet-name>
+		<url-pattern>/searchbooks.jlc</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>AddToCartServlet</display-name>
+		<servlet-name>AddToCartServlet</servlet-name>
+		<servlet-class>com.jlcindia.servlets.AddToCartServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddToCartServlet</servlet-name>
+		<url-pattern>/addtocart.jlc</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>ShowCartServlet</display-name>
+		<servlet-name>ShowCartServlet</servlet-name>
+		<servlet-class>com.jlcindia.servlets.ShowCartServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShowCartServlet</servlet-name>
+		<url-pattern>/showcart.jlc</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>RemoveFromCartServlet</display-name>
+		<servlet-name>RemoveFromCartServlet</servlet-name>
+		<servlet-class>com.jlcindia.servlets.RemoveFromCartServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RemoveFromCartServlet</servlet-name>
+		<url-pattern>/removefromcart.jlc</url-pattern>
+	</servlet-mapping>
+</web-app>

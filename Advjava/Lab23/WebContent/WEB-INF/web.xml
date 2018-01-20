@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Lab23</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>LogoutServlet</display-name>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.jlcindia.servlets.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/logout.jlc</url-pattern>
+  </servlet-mapping>
+  <listener>
+    <listener-class>com.jlcindia.listener.MyContextListener</listener-class>
+  </listener>
+  <listener>
+    <listener-class>com.jlcindia.listener.MySessionListener</listener-class>
+  </listener>
+  <servlet>
+    <description></description>
+    <display-name>TestServlet</display-name>
+    <servlet-name>TestServlet</servlet-name>
+    <servlet-class>com.jlcindia.servlets.TestServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TestServlet</servlet-name>
+    <url-pattern>/TestServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
