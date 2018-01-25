@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<h4>Operational Support System</h4>
+<div align="right" id="rightSidenav" class="rtSidenav">
+	<a href="#" id="my_account">MyAccount</a> <a href="#" id="help">Help</a>
+	<a href="#" id="logout">Logout</a>
+</div>
+<hr />
+
+
+<style>
+#mySidenav a {
+	position: absolute;
+	width: 160px;
+	transition: 0.3s;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	border-radius: 5px 5px 5px 5px;
+}
+
+#dashboard {
+	top: 95px;
+	background-color: #2196F3;
+}
+
+#tenant {
+	top: 137px;
+	background-color: #2196F3;
+}
+
+#catalog {
+	top: 179px;
+	background-color: #2196F3;
+}
+
+#service {
+	top: 221px;
+	background-color: #2196F3
+}
+
+#order {
+	top: 263px;
+	background-color: #2196F3
+}
+
+#selfService {
+	top: 305px;
+	background-color: #2196F3
+}
+
+#userActivityReport {
+	top: 347px;
+	background-color: #2196F3
+}
+
+
+
+
+#content {
+	position: absolute;
+	width: 350px;
+    height: 350px; 
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto; 
+  
+}
+
+
+</style>
+</head>
+<body>
+
+	<div id="mySidenav" class="sidenav">
+	
+		<a href="#" id="dashboard">Dashboard</a> 
+		<a href="#" id="tenant">Tenant</a>
+		<a href="#" id="catalog">Catalog</a> 
+		<a href="#" id="service">Service</a>
+		<a href="#" id="order">Order</a> 
+		<a href="#" id="selfService">Self Service</a> 
+		<a href="#" id="userActivityReport">User Activity Report</a>
+		
+	</div>
+
+	<div id="content">
+	</div>
+
+
+
+	<script>
+		$(document).ready(function() {
+			$("#tenant").on("click", function() {
+				$("#content").load("tenant.html");
+			});
+		});
+		$(document).ready(function() {
+			$("#catalog").on("click", function() {
+				$("#content").load("catalog.html");
+			});
+		});
+		$(document).ready(function() {
+			$("#service").on("click", function() {
+				$("#content").load("service.html");
+			});
+		});
+		$(document).ready(function() {
+			$("#order").on("click", function() {
+				$("#content").load("order.html");
+			});
+		});
+		$(document).ready(function() {
+			$("#selfService").on("click", function() {
+				$("#content").load("selfService.html");
+			});
+		});
+		$(document).ready(function() {
+			$("#userActivityReport").on("click", function() {
+				$("#content").load("userActivityReport.html");
+			});
+		});
+		
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="/path/to/jquery-latest.js"></script> 
+<script type="text/javascript" src="/path/to/jquery.tablesorter.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.29.4/js/jquery.tablesorter.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<h4>Manage System Provider</h4>
+
+<hr />
+
+
+<style>
+/* table, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+th {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	background-color: lightblue;
+} */
+table.table1 {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+table.table1 td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+table.table1 th {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	background-color: lightblue;
+}
+.rotate90{
+float: right;
+margin-top: 2px;
+margin-right: 4px;
+}
+
+
+</style>
+</head>
+<body>
+
+	<form action="/action_page.php" id="usrform">
+
+		<table class="beta" style="width: 100%">
+
+			<tr>
+				<th>Action</th>
+				<th><select name="---Select---">
+						<option value="volvo">-----Select-----</option>
+						<option value="volvo">Add Operational User</option>
+						<option value="saab">View Operational Users</option>
+						<option value="fiat">Add Service Provider</option>
+						<option value="audi">View Service Providers</option>
+						<option value="audi">Modify System Providers</option>
+						<option value="fiat">Deactivate System Provider</option>
+						<option value="audi">View Roles</option>
+						<option value="audi">Add Roles</option>
+				</select></th>
+				<th><button type="button" style="background-color: #2196F3;">Add
+						System Provider</button></th>
+				<th align="right">Search:<input type="text" name="search"></th>
+			</tr>
+
+		</table>
+
+
+
+		<table id="myTable" class="table1" style="width: 100%">
+			<tr>
+				<th></th>
+				<th>System Provider Name <i class="fa fa-sort rotate90" aria-hidden="true"></i></th>
+				<th>Domain Name <i class="fa fa-sort rotate90" aria-hidden="true"></i></th>
+				<th>Parent Company</th>
+				<th>Description <i class="fa fa-sort rotate90" aria-hidden="true"></i></th>
+			</tr>
+			<tr>
+				<td><input type="radio" name="package" value="gatewayAccess"></td>
+				<td>HCL</td>
+				<td>hcl.in</td>
+				<td>root Company</td>
+				<td></td>
+			</tr>
+		</table>
+		<h4>Total 1 System Providers</h4>
+		<div align="right" id="rightLink" class="rightLink">
+			<a href="#" style="text-decoration: none" id="my_account">First</a> <a
+				href="#" style="text-decoration: none" id="help">Previous</a> <a
+				href="#" style="text-decoration: none">1</a> <a href="#"
+				style="text-decoration: none" id="my_account">Next</a> <a href="#"
+				style="text-decoration: none" id="help">Last</a>
+
+		</div>
+
+		
+
+
+	</form>
+</body>
+</html>
